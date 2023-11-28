@@ -17,3 +17,5 @@
 -    - Power control:- at what power gNB transfer data to UE and same time at what power UE will transfer data to gNB to avoid interference between gnb and UE known as power control
 
   - gNB is connected to core Network and nearby base station because when you we enter in near base station so first gnb is responsible to handover UE to next gnb and this process called handover
+
+- The connection between gnb and nearby gnb is known as Xn interface
