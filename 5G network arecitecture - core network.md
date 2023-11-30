@@ -87,7 +87,32 @@
  
    - When a user coming from another service provider and they want to use your services so they are allowed or not allowed
 
+- it is very simeler to HSS in LTE (4G) and HLR in GSM
 
+# policy charging function (PCF)
+<img width="1440" alt="Screenshot 2023-11-30 at 4 29 38 PM" src="https://github.com/dhirukumar/Technologies-Architecture-and-protocol/assets/146316525/c064b7b4-6567-47de-9260-7d327bfceb8c">
+
+- PCF is involved in dynamic policy decision based upon network condition such as congestion and subscriber geo-location
+
+- `For example or UV ra mobile where located in gnb have bad channel condition and this UV wants a call so this request of call would reach to pcf through the SMS now here pcf make two decision`
+
+     - First decision = throttle the data of this UA so it can make a video call
+ 
+     - Second decision = it refuse the call all together with the help of AMF
+ 
+- PCF also involved in manage of service area
+
+    - Service area for UE is list of a allowed or not allowed tracking area (TA's)
+ 
+- There are always two case in PCF in the following
+
+     - first case if a user in tracking area that is not allowed for him and if this UE wants make a call then PCF interact with AMF and then it can refuse call all together
+
+     - second case if a user in tracking area that is allowed for him and if this UE want make a call then PCF allowed the call
+
+- when a UE in 5G network and they wants to make a call what charges that is also decided by PCF charging depend upon what service of quality UE use
+
+- It is very similar to PCRF in LTE (4G)
 
 
 
