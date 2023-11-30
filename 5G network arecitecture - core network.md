@@ -50,6 +50,19 @@
 - The SMF in 5G network is very similar to the PDN-GW (gateway) control plane in LTE (4G)
 
 
+# User plane function(UPF)
+<img width="1440" alt="Screenshot 2023-11-30 at 3 15 57 PM" src="https://github.com/dhirukumar/Technologies-Architecture-and-protocol/assets/146316525/9b113fc7-899c-4f59-b13a-bd1e0fbdc7aa">
+
+- UPF is very important part of 5G network it is important because UPF is the point of contact of data network with 5G core Network and whenever a data packet arrive from the data network it is UPF that decides when the packet needs to be rotate
+
+- UPF is anchor for the UE
+
+- Anchor for UE means UPF  build PDU session between UE and UPF and when you move to one gNB area to another gNB so PDU session is always build
+
+- I already mention the QOS decision is taken by PCF and this information is taken to SMF and SMF intimated this information to UPF and UPF is responsible for enforcement this QOS is decision done by the UPF Hence UPF enforced QOS in PDU session
+
+- The function of UPF in 5G core network is very similar to PDN GW(gateway) data plane in Ltd (4G)
+
 
 
 
