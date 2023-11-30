@@ -63,6 +63,29 @@
 
 - The function of UPF in 5G core network is very similar to PDN GW(gateway) data plane in Ltd (4G)
 
+# unified data management (UDM)
+
+<img width="1440" alt="Screenshot 2023-11-30 at 3 47 55 PM" src="https://github.com/dhirukumar/Technologies-Architecture-and-protocol/assets/146316525/2b0493a5-d5dd-4923-ab91-06311f920ada">
+
+- UDM is another very important function in 5G core network
+
+- It is centralised database for all the subscriber information in 5G network so the proper function of UDM is very important
+
+- UDM has inter database and also have external database called you UDR (unified data repository)
+
+- UDR is important Because UDR holds key authentication for authenticate UE wether they can use our network or not
+
+- When a UE change their tracking area they have also need to change their AMF so UDR is responsible for identify that in which AMF area this UE is located so this function is done in UDR
+
+- UDM Holds the subscriber information like in the following
+
+   - What type of data service is subscriber can use and at what quality of service that he can use
+ 
+   - Which service user can access and which service user cannot access
+ 
+   - UDM has also know user can restricted in certain tracking area
+ 
+   - When a user coming from another service provider and they want to use your services so they are allowed or not allowed
 
 
 
