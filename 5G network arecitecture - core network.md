@@ -114,6 +114,12 @@
 
 - It is very similar to PCRF in LTE (4G)
 
+# application function (AF)
+<img width="1440" alt="Screenshot 2023-11-30 at 4 51 39 PM" src="https://github.com/dhirukumar/Technologies-Architecture-and-protocol/assets/146316525/205a1aa1-bee7-4e30-b914-80016e1353d1">
+
+- AF is an external server and this external server communicate with the core Network and more precisely with the PCF in order to request a new packet flow
+
+- AF is an ISM(IP multimedia subsystem) node and this is used to generate voice call over IP
 
 
 
